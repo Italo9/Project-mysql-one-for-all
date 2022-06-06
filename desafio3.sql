@@ -6,3 +6,4 @@ INNER JOIN SpotifyClone.musicas
 ON musicas.musica_id = reproducao_usuarios.musica_id
 GROUP BY usuario
 ORDER BY usuario;
+
